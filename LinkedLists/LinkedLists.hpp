@@ -3,18 +3,21 @@
 template<typename T>
 struct node {
 	T data;
-	node* next;
+	std::unique_ptr<node<T>> next;
 
-	node(T val, node* node = nullptr) : data(val), next(node) {}
+	node(T val, std::unique_ptr<node<T>> nextnode = nullptr) : data(val)
+        {
+		node = std::move(nextnode);
+	}
 
-	T getvalue() {};
+	T getvalue() {return data};
 
 	T setvalue(T val) {
 		data = val;
 		return data;
 	}
 
-	setnextnode(nod* nextNode) {
-		next = nextNode;
+	setnextnode(std::unique_ptr<node<T>> nextNode) {
+		next = std::move(nextNode);
 	}
 };
