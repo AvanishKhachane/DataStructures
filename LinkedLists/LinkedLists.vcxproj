@@ -124,8 +124,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="gitPushFromLLs.ps1" />
-    <ClCompile Include="LinkedLIsts.cpp" />
+    <ClCompile Include="gitpushFromLLs.ps1" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="LinkedLists.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="LinkedLists.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
