@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{73ac604e-2b88-4b57-a1f4-c94af54c2303}</ProjectGuid>
-    <RootNamespace>LinkedLIsts</RootNamespace>
+    <ProjectGuid>{61f09d54-9d46-4cc1-97fe-b9d656297654}</ProjectGuid>
+    <RootNamespace>LinkedLists</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>LinkedLists</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -124,14 +123,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
     <ClCompile Include="LinkedLists.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="LinkedLists.hpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="gitpushFromLLs.ps1" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
