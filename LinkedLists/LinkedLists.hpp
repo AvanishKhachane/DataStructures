@@ -1,7 +1,7 @@
 #include <memory>
 
 template<typename T>
-class node {
+struct node {
 	T data;
 	std::unique_ptr<node<T>> next;
 
