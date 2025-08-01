@@ -1,18 +1,1 @@
-﻿  gitpushFromLLs.ps1
-C:\Users\Public\Documents\VSC-files\cppfiles\VS_files\DataStructures\LinkedLIsts\gitpushFromLLs.ps1(3,6): error C2337: 'string': attribute not found
-C:\Users\Public\Documents\VSC-files\cppfiles\VS_files\DataStructures\LinkedLIsts\gitpushFromLLs.ps1(3,13): error C2061: syntax error: identifier '$Message'
-C:\Users\Public\Documents\VSC-files\cppfiles\VS_files\DataStructures\LinkedLIsts\gitpushFromLLs.ps1(6,1): error C2143: syntax error: missing ';' before 'if'
-C:\Users\Public\Documents\VSC-files\cppfiles\VS_files\DataStructures\LinkedLIsts\gitpushFromLLs.ps1(1,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Public\Documents\VSC-files\cppfiles\VS_files\DataStructures\LinkedLIsts\gitpushFromLLs.ps1(6,1): error C2059: syntax error: 'if'
-C:\Users\Public\Documents\VSC-files\cppfiles\VS_files\DataStructures\LinkedLIsts\gitpushFromLLs.ps1(6,22): error C2143: syntax error: missing ';' before '{'
-C:\Users\Public\Documents\VSC-files\cppfiles\VS_files\DataStructures\LinkedLIsts\gitpushFromLLs.ps1(6,22): error C2447: '{': missing function header (old-style formal list?)
-C:\Users\Public\Documents\VSC-files\cppfiles\VS_files\DataStructures\LinkedLIsts\gitpushFromLLs.ps1(10,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-C:\Users\Public\Documents\VSC-files\cppfiles\VS_files\DataStructures\LinkedLIsts\gitpushFromLLs.ps1(10,15): error C2065: 'Split': undeclared identifier
-C:\Users\Public\Documents\VSC-files\cppfiles\VS_files\DataStructures\LinkedLIsts\gitpushFromLLs.ps1(10,21): error C2065: 'Path': undeclared identifier
-C:\Users\Public\Documents\VSC-files\cppfiles\VS_files\DataStructures\LinkedLIsts\gitpushFromLLs.ps1(10,27): error C2065: 'Leaf': undeclared identifier
-C:\Users\Public\Documents\VSC-files\cppfiles\VS_files\DataStructures\LinkedLIsts\gitpushFromLLs.ps1(10,32): error C2146: syntax error: missing ';' before identifier '$PSScriptRoot'
-C:\Users\Public\Documents\VSC-files\cppfiles\VS_files\DataStructures\LinkedLIsts\gitpushFromLLs.ps1(14,2): error C2017: illegal escape sequence
-C:\Users\Public\Documents\VSC-files\cppfiles\VS_files\DataStructures\LinkedLIsts\gitpushFromLLs.ps1(15,1): error C1021: invalid preprocessor command 'This'
-  main.cpp
-  LinkedLists.cpp
-  Generating Code...
+﻿  LinkedLIsts.vcxproj -> C:\Users\Public\Documents\VSC-files\cppfiles\VS_files\DataStructures\LinkedLIsts\x64\Debug\LinkedLists.exe
