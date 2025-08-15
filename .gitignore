@@ -49,3 +49,5 @@
 *.filters
 *.user
 *.ps1
+
+*/x64/Debug
