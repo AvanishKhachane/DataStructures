@@ -1,4 +1,42 @@
 ﻿  LinkedLists.cpp
   main.cpp
+C:\Users\Public\Documents\VS_files\DataStructures\LinkedLists\LinkedLists.cpp(33,42): error C2100: you cannot dereference an operand of type 'node<T>'
+C:\Users\Public\Documents\VS_files\DataStructures\LinkedLists\LinkedLists.cpp(33,42): error C2100:         with
+C:\Users\Public\Documents\VS_files\DataStructures\LinkedLists\LinkedLists.cpp(33,42): error C2100:         [
+C:\Users\Public\Documents\VS_files\DataStructures\LinkedLists\LinkedLists.cpp(33,42): error C2100:             T=int
+C:\Users\Public\Documents\VS_files\DataStructures\LinkedLists\LinkedLists.cpp(33,42): error C2100:         ]
+  (compiling source file 'main.cpp')
+      C:\Users\Public\Documents\VS_files\DataStructures\LinkedLists\LinkedLists.cpp(33,42):
+      the template instantiation context (the oldest one first) is
+          C:\Users\Public\Documents\VS_files\DataStructures\LinkedLists\main.cpp(5,21):
+          see reference to class template instantiation 'linkedlist<int>' being compiled
+          C:\Users\Public\Documents\VS_files\DataStructures\LinkedLists\LinkedLists.cpp(100,4):
+          while compiling class template member function 'T linkedlist<T>::operator [](int) const'
+          with
+          [
+              T=int
+          ]
+              C:\Users\Public\Documents\VS_files\DataStructures\LinkedLists\main.cpp(13,47):
+              see the first reference to 'linkedlist<int>::operator []' in 'main'
+          C:\Users\Public\Documents\VS_files\DataStructures\LinkedLists\LinkedLists.cpp(101,23):
+          see reference to class template instantiation 'node<T>' being compiled
+          with
+          [
+              T=int
+          ]
+          C:\Users\Public\Documents\VS_files\DataStructures\LinkedLists\LinkedLists.cpp(31,7):
+          while compiling class template member function 'void node<T>::setnextnode(node<T> &)'
+          with
+          [
+              T=int
+          ]
+              C:\Users\Public\Documents\VS_files\DataStructures\LinkedLists\LinkedLists.cpp(70,24):
+              see the first reference to 'node<T>::setnextnode' in 'linkedlist<int>::remove'
+          with
+          [
+              T=int
+          ]
+              C:\Users\Public\Documents\VS_files\DataStructures\LinkedLists\main.cpp(18,16):
+              see the first reference to 'linkedlist<int>::remove' in 'main'
+  
   Generating Code...
-  LinkedLists.vcxproj -> C:\Users\Public\Documents\VSC-files\cppfiles\VS_files\DataStructures\LinkedLists\x64\Debug\LinkedLists.exe
