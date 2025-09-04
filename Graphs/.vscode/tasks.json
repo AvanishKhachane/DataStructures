@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build Project",
+      "type": "shell",
+      "command": "msbuild",
+      "args": [
+        "Graphs\\GraphDataStructure.sln",
+        "/p:Configuration=Debug",
+        "/p:Platform=x64"
+      ],
+      "group": "build",
+      "problemMatcher": ["$msCompile"]
+    }
+  ]
+}

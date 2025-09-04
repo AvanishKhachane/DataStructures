@@ -1,0 +1,26 @@
+{
+  "version": "2.0.0",
+  "stopAtEntry": false,
+  "configurations": [
+    {
+      "name": "Launch Project",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/x64/Debug/LinkedLists.exe",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "console": "externalTerminal",
+      "preLaunchTask": "Build Project"
+    },
+    {
+      "name": "Debug Project",
+      "type": "cppvsdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/x64/Debug/LinkedLists.exe",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "console": "externalTerminal",
+      "preLaunchTask": "Build Project"
+    }
+  ]
+}
